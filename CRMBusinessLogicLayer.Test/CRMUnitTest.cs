@@ -34,5 +34,22 @@ namespace CRMBusinessLogicLayer.Test
             string vartotojas = klientas.FullName;
             Assert.AreEqual(vartotojas, "Pavardenis");
         }
+
+        [TestMethod]
+        public void ValidateValid()
+        {
+            Customer klientas = new Customer();
+            klientas.LastName = "Pavardenis";
+            klientas.EmailAdress = "vardenis.pavardenis@email.com";
+
+            //bool expected = true;
+            //bool actual = customer Validate()
+
+
+
+
+
+
+        }
     }
 }
